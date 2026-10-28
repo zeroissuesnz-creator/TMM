@@ -7,6 +7,3 @@ Static one-page website ready for GitHub Pages.
 - `index.html` — website
 - `logo.svg` — master brand logo
 - `favicon.svg` — browser icon
-
-## Payment
-Replace every `YOUR_STRIPE_PAYMENT_LINK` in `index.html` with your live Stripe Payment Link before launch.
