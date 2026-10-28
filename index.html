@@ -1,1 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tried &amp; True Co. — Tried. Chosen. Worth it.</title>
+  <meta name="description" content="Tried & True Co. curates standout wellness, skincare, oral care and beauty products worth knowing about." />
+  <meta name="theme-color" content="#4d5545" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <style>
+    :root{--ink:#171714;--forest:#4d5545;--sage:#a8ad9f;--cream:#f2eee6;--paper:#fbfaf7;--gold:#b8a27b;--stone:#d8d0c4;--muted:#756f66;}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+    .top{background:var(--forest);color:white;text-align:center;padding:9px 16px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+    header{position:sticky;top:0;z-index:20;background:rgba(251,250,247,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(23,32,28,.08)}
+    nav{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:12px;align-items:center}.brand img{height:42px;width:auto;display:block}.mark{display:none}
+    .navbuy{background:var(--forest);color:#fff;padding:12px 18px;border-radius:999px;font-weight:700;font-size:14px}
+    .hero{padding:70px 0 58px;background:radial-gradient(circle at 78% 20%,#ebe8e0 0 18%,transparent 19%),linear-gradient(135deg,#fbfaf7 0%,#f1ece3 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--forest);font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(44px,6vw,76px);line-height:.98;margin:18px 0 24px;font-weight:500;letter-spacing:-.035em}.hero h1 em{font-style:italic;color:var(--forest)}
+    .lead{font-size:19px;color:#655f56;max-width:650px}.proof{display:flex;gap:24px;flex-wrap:wrap;margin:26px 0 30px;color:#655f56;font-size:14px}.proof span:before{content:'✓';color:var(--forest);font-weight:900;margin-right:7px}.buyrow{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.cta{display:inline-flex;align-items:center;justify-content:center;background:var(--forest);color:white;padding:17px 26px;border-radius:999px;font-weight:800;box-shadow:0 10px 30px rgba(77,85,69,.18);transition:.2s}.cta:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(77,85,69,.25)}.price{font-size:24px;font-weight:800}.subprice{font-size:12px;color:var(--muted);display:block;font-weight:500}
+    .secure{font-size:12px;color:var(--muted);margin-top:12px}.secure:before{content:'🔒';margin-right:6px}
+    .product-stage{min-height:520px;border-radius:32px;background:linear-gradient(145deg,#ded9cf,#f7f4ee);display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 24px 70px rgba(35,49,40,.13)}
+    .leaf{position:absolute;border-radius:100% 0 100% 0;background:rgba(77,85,69,.11);transform:rotate(35deg)}.l1{width:190px;height:80px;left:-25px;top:85px}.l2{width:170px;height:72px;right:-34px;bottom:94px;transform:rotate(205deg)}
+    .bottle{width:220px;height:355px;background:linear-gradient(90deg,#5b3b24,#8a5b37 45%,#4b321f);border-radius:42px 42px 34px 34px;position:relative;box-shadow:0 28px 40px rgba(54,39,27,.28)}.dropper{position:absolute;top:-102px;left:58px;width:104px;height:122px}.bulb{height:74px;background:#181b19;border-radius:24px 24px 10px 10px}.neck{height:48px;width:65px;margin:auto;background:#d8c7a7;border-radius:4px 4px 10px 10px}.label{position:absolute;left:18px;right:18px;top:110px;background:#f5f1e9;border:1px solid #cfc5b5;padding:23px 16px;text-align:center}.label small{display:block;letter-spacing:.16em;text-transform:uppercase;color:#625f57;font-size:8px}.label strong{display:block;font-family:Georgia,serif;font-size:21px;line-height:1.1;margin:10px 0 6px}.label .bot{font-size:10px;color:#756f66}.ml{position:absolute;bottom:24px;left:0;right:0;text-align:center;color:#f6f1e8;font-size:11px;letter-spacing:.15em}
+    .badge{position:absolute;right:28px;top:28px;background:#fffdf8;border:1px solid rgba(23,32,28,.11);border-radius:999px;padding:10px 14px;font-size:12px;font-weight:700;color:var(--forest)}
+    .strip{border-top:1px solid #e7e1d7;border-bottom:1px solid #e7e1d7;background:#fff;padding:22px 0}.strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center;font-size:13px;color:#6b665e}.strip strong{display:block;color:var(--ink);font-size:15px;margin-bottom:2px}
+    section{padding:78px 0}.section-title{text-align:center;max-width:760px;margin:0 auto 48px}.section-title span{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--forest);font-weight:800}.section-title h2{font-family:Georgia,serif;font-size:clamp(34px,4vw,52px);font-weight:500;line-height:1.07;margin:12px 0}.section-title p{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:30px;border:1px solid #e3ddd3;border-radius:20px;background:#fff}.icon{font-size:24px;margin-bottom:14px}.card h3{font-family:Georgia,serif;font-size:23px;margin:0 0 8px;font-weight:500}.card p{margin:0;color:var(--muted);font-size:14px}
+    .ingredients{background:var(--cream)}.ingrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.ing{background:#fffdf8;border-radius:22px;padding:28px}.ing .latin{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--forest);font-weight:800}.ing h3{font-family:Georgia,serif;font-size:28px;margin:8px 0}.ing p{color:var(--muted);font-size:14px}
+    .how{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}.howbox{background:var(--forest);color:white;border-radius:28px;padding:42px}.step{display:flex;gap:15px;padding:17px 0;border-bottom:1px solid rgba(255,255,255,.14)}.step:last-child{border:0}.num{width:31px;height:31px;border:1px solid rgba(255,255,255,.5);border-radius:50%;display:grid;place-items:center;flex:none;font-size:12px}.how h2{font-family:Georgia,serif;font-size:44px;font-weight:500;line-height:1.08}.how p{color:var(--muted)}
+    .buybox{background:linear-gradient(135deg,#383b35,#575b50);color:white;border-radius:34px;padding:54px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}.buybox h2{font-family:Georgia,serif;font-size:42px;font-weight:500;margin:0 0 10px}.buybox p{margin:0;color:#e1ddd5}.buybox .cta{background:#fffdf8;color:var(--forest);min-width:190px}.buybox .price{margin-bottom:10px}
+    .fine{font-size:11px;line-height:1.55;color:#7d847e;max-width:900px;margin:34px auto 0;text-align:center}
+    footer{padding:32px 0;border-top:1px solid #e3ddd3;color:#737c76;font-size:12px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:820px){.hero-grid,.how,.buybox{grid-template-columns:1fr}.hero{padding-top:44px}.hero h1{font-size:48px}.product-stage{min-height:470px}.strip-grid,.cards,.ingrid{grid-template-columns:1fr 1fr}.buybox{text-align:center}.buybox .cta{width:100%}}
+    @media(max-width:520px){.wrap{width:min(100% - 28px,1160px)}.brand{font-size:17px}.navbuy{display:none}.hero h1{font-size:42px}.strip-grid,.cards,.ingrid{grid-template-columns:1fr}.product-stage{min-height:420px}.bottle{transform:scale(.86)}.buybox{padding:34px 24px}.buybox h2{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div class="top">FREE overnight NZ postage on featured products • Carefully selected • Tried. Chosen. Worth it.</div>
+  <header><div class="wrap"><nav><a class="brand" href="#"><img src="logo.svg" alt="Tried &amp; True Co."></a><a class="navbuy" href="#featured">Shop featured</a></nav></div></header>
 
+  <main>
+    <section class="hero" id="home"><div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Tried. Chosen. Worth it.</div>
+        <h1>Health &amp; beauty finds <em>worth knowing about.</em></h1>
+        <p class="lead">We sift through health, wellness and beauty finds and bring together the ones worth a closer look — from skincare and oral care to everyday wellness. No endless catalogue. Just a tighter edit of products we think deserve a place in your routine.</p>
+        <div class="proof"><span>Carefully curated</span><span>Simple, premium presentation</span><span>Fast NZ delivery</span></div>
+        <div class="buyrow"><a class="cta" href="#featured">See our first featured find →</a></div>
+      </div>
+      <div class="product-stage" aria-label="Product bottle illustration">
+        <div class="leaf l1"></div><div class="leaf l2"></div><div class="badge">Alcohol-free</div>
+        <div class="bottle"><div class="dropper"><div class="bulb"></div><div class="neck"></div></div><div class="label"><small>Tried &amp; True Co.</small><strong>Tiger’s Milk<br/>Mushroom Blend</strong><div class="bot">Mullein • Licorice Root<br/>Premium Wellness Extract</div></div><div class="ml">30 mL</div></div>
+      </div>
+    </div></section>
+
+    <div class="strip"><div class="wrap strip-grid"><div><strong>20:1 extract</strong>Concentrated formula</div><div><strong>Alcohol-free</strong>Vegetable glycerin base</div><div><strong>Three botanicals</strong>Simple, focused blend</div><div><strong>FREE overnight postage</strong>Included in the $79 price</div></div></div>
+
+    <section style="padding:54px 0" id="collections"><div class="wrap">
+      <div class="section-title" style="margin-bottom:30px"><span>The Tried &amp; True edit</span><h2>Less scrolling. Better finds.</h2><p>From wellness and oral care to skincare and everyday beauty, Tried &amp; True Co. is built around a simple idea: curate a smaller collection of products that deserve attention.</p></div>
+      <div class="cards">
+        <div class="card"><div class="icon">✦</div><h3>Wellness</h3><p>Focused formulas and everyday health products selected for a cleaner, simpler routine.</p></div>
+        <div class="card"><div class="icon">◌</div><h3>Skin &amp; Beauty</h3><p>Serums, treatments and beauty finds chosen for quality, ingredients and real-world appeal.</p></div>
+        <div class="card"><div class="icon">◇</div><h3>Oral Care</h3><p>Whitening and daily-care products that make upgrading your routine easy.</p></div>
+      </div>
+    </div></section>
+
+    <section id="featured"><div class="wrap">
+      <div class="section-title"><span>Featured find • $79 incl. FREE overnight NZ postage</span><h2>Tiger’s Milk Mushroom + Mullein + Licorice Root.</h2><p>Designed for people who want a simple botanical addition to their everyday wellness routine without alcohol, fillers or a complicated ingredient list.</p></div>
+      <div class="cards">
+        <div class="card"><div class="icon">◒</div><h3>Respiratory wellness</h3><p>Tiger’s Milk Mushroom and Mullein have a long history of traditional use in respiratory-focused herbal preparations.</p></div>
+        <div class="card"><div class="icon">✦</div><h3>Gentle format</h3><p>A vegetable glycerin base gives the tincture a naturally smooth, lightly sweet taste and avoids alcohol.</p></div>
+        <div class="card"><div class="icon">⌁</div><h3>Easy to use</h3><p>Take directly from the dropper or add to a small amount of water, tea, juice or a smoothie.</p></div>
+      </div>
+    </div></section>
+
+    <section class="ingredients"><div class="wrap">
+      <div class="section-title"><span>Inside the bottle</span><h2>Nothing unnecessary.</h2><p>A focused combination of three botanicals in a vegetable glycerin base.</p></div>
+      <div class="ingrid">
+        <div class="ing"><div class="latin">Lignosus rhinocerus</div><h3>Tiger’s Milk Mushroom</h3><p>A prized mushroom with a long history of traditional use in Southeast Asian wellness practices.</p></div>
+        <div class="ing"><div class="latin">Verbascum thapsus</div><h3>Mullein</h3><p>A familiar herb in traditional respiratory preparations, valued for its soothing character.</p></div>
+        <div class="ing"><div class="latin">Glycyrrhiza glabra</div><h3>Licorice Root</h3><p>A classic botanical traditionally used in soothing herbal blends and formulations.</p></div>
+      </div>
+    </div></section>
+
+    <section><div class="wrap how">
+      <div><div class="eyebrow">Simple routine</div><h2>Wellness that fits into your day.</h2><p>Shake well before use. Follow the directions printed on your final product label. The tincture can be taken directly or diluted into a small amount of your preferred drink.</p></div>
+      <div class="howbox"><div class="step"><div class="num">1</div><div><strong>Shake</strong><br><span>Gently shake the bottle before each use.</span></div></div><div class="step"><div class="num">2</div><div><strong>Measure</strong><br><span>Use the dropper according to your labelled directions.</span></div></div><div class="step"><div class="num">3</div><div><strong>Take</strong><br><span>Use directly or add to water, tea, juice or a smoothie.</span></div></div></div>
+    </div></section>
+
+    <section><div class="wrap">
+      <div class="buybox"><div><div class="eyebrow" style="color:#d4d0c7">Tried &amp; True Co.</div><h2>Our first Tried &amp; True find.</h2><p>30 mL • alcohol-free • concentrated botanical extract • FREE overnight postage included</p></div><div><div class="price">$79 <span class="subprice" style="color:#e1ddd5">includes FREE overnight postage</span></div><a class="cta" href="YOUR_STRIPE_PAYMENT_LINK">Buy now →</a></div></div>
+      <p class="fine">Important: This product is not intended to diagnose, treat, cure or prevent any disease. Botanical and herbal products may not be suitable for everyone. Seek advice from a qualified healthcare professional before use, particularly if pregnant or breastfeeding, taking medication, or managing a medical condition. Keep out of reach of children. Your final website copy, dosage statements and product claims should be checked against the requirements that apply where you sell the product.</p>
+    </div></section>
+  </main>
+  <footer><div class="wrap foot"><span>© 2026 Tried &amp; True Co. • New Zealand</span><span>Wellness • Skin &amp; Beauty • Oral Care • Everyday Health</span></div></footer>
+</body>
+</html>
